@@ -1,0 +1,22 @@
+.search-bar{
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding:10px;
+}
+.search-bar form{
+    display: flex;
+    flex-direction: column;
+}
+::placeholder{
+    color: white;
+    font-size: 1.2rem;
+}
+.search-bar form input{
+    background-color: #3CBC8D;
+    border: none;
+    height: 2rem;
+    color: white;
+    padding: 10px;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+}
